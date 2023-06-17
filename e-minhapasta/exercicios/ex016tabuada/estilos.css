@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+*{margin: 0px; padding: 0px;}
+body{ font: 14pt Arial; background-color:rgba(69, 144, 69, 0.619) ;}
+header{
+    background-color: rgba(69, 144, 69, 0.619);
+    color:  rgb(39, 79, 39);
+    padding: 10px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+}
+section{
+    padding: 10px;
+    width: 400px;
+    margin: auto;
+    background-color:rgb(134, 149, 93) ;
+    border: 2px solid rgb(1, 47, 1);
+    border-radius: 5px;
+}
+div{padding: 10px;}
+select{ 
+    padding: 10px;
+    border: 1px solid rgb(1, 47, 1);
+    border-radius: 5px;
+    
+  
+}
+footer{
+    padding: 3px;
+    text-align: center;
+    font-size: xx-small;
+}

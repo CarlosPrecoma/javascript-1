@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+body{
+    background-color: beige;
+    font: 12pt Arial;
+    padding: 20px  
+}
+button{
+    padding: 20px;
+    background-color: rgb(169, 169, 251);
+    font-size: 1em;
+    border-radius: 5px;
+}
+h1 {
+    font-family:'Pacifico', cursive ;
+    font-weight: lighter;
+}

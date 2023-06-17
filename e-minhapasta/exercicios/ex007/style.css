@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body {font: 12pt Arial; }
+h1 {font-size: 2em; text-decoration: underline;}
+button { 
+    padding: 20px;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+section > p {
+    font-size: 1.2em;
+}

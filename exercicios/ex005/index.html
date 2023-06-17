@@ -28,9 +28,9 @@
 <body>
     <h1>Trabalhando com números</h1>
     <button onclick="calcular()">Clique para calcular</button>
-    <section id="res">
+    <div id="res">
         <p>O resultado vem aqui...</p>
-    </section>
+    </div>
 
     <script>
         // O que fica aqui fora vai executar automaticamente, SEMPRE que o site for carregado
@@ -38,7 +38,7 @@
         // Já a função calcular() só vai executar quando o usuário pressionar o botão
         function calcular() {
             let n1 = Number(window.prompt('Digite um número: '))
-            let res = document.querySelector('section#res')
+            let res = document.querySelector('div#res')
 
             res.innerHTML = `<p>O dobro de ${n1} é ${n1*2} e a metade é ${n1/2}!</p>`
         }

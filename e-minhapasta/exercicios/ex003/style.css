@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body { 
+    font: 12pt Arial;
+}
+h1 {
+    font-size: 2em;
+}
+button {
+    padding: 20px;
+    font-size: 1em;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 10px;
+}

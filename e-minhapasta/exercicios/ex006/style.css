@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body{background-color: rgb(185, 235, 185); font: 12pt Arial;}
+h1{ font-size: 2em; color: rgb(1, 110, 1);}
+button {
+    background-color: rgba(0, 128, 0, 0.553);
+    color: white;
+    padding: 20px;
+    font-size: 1.2em;
+    border: 2px solid rgb(0, 39, 0);
+    border-radius: 10px;
+
+}
+section > p { font-size: 1.2em; color: rgb(1, 110, 1);}

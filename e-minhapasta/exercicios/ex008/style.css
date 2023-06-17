@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body { background-color: bisque; font: 12pt Arial;}
+h1 { color: brown;}
+button {
+    padding: 20px;
+    font-size: 1.2em;
+    border: 2px solid rgb(77, 20, 20);
+    border-radius: 10px;
+}
+section > p { color: rgb(92, 25, 25); font-size: 1.2em;}
