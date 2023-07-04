@@ -15,6 +15,7 @@
 */
 
 function contar() {
+    
     let saida = document.getElementById('saida')
 
     saida.innerHTML += `<h2>Contando de 1 até 10</h2>`

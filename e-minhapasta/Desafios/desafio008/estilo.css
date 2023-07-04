@@ -1,0 +1,19 @@
+@charset "UTF-8";
+body{
+    font: 14pt Arial; background-color: rgb(250, 172, 108);
+}
+header{
+    background-color:rgb(250, 133, 37);
+    color:rgb(113, 31, 0) ;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.442);
+    padding: 10px;
+    text-align: center;
+    border: 2px solid rgb(113, 31, 0);
+}
+input{
+    margin-top: 20px;
+    padding: 20px;
+    background-color:rgb(113, 31, 0) ;
+    color: white;
+    border-radius: 10px;
+}

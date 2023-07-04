@@ -1,0 +1,22 @@
+@charset "UTF-8";
+*{margin: 0px;}
+body{
+    background-color:#EE8C5F;
+    color: #6B290B;
+    font: 16pt Arial;
+    line-height: 7vh;
+    
+}
+header{
+    background-color: #EB5917;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.492);
+}
+div{padding: 20px;}
+input{
+    padding: 20px;
+    background-color:#B84712 ;
+    font-weight: bold;
+    border-radius: 10px;
+}

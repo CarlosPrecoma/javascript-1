@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números aleatórios</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header><h1>Gerador de números</h1></header>
+    <div>
+        <input type="button" value="Clique em mim" onclick="clicar()">
+        <input type="button" value="Limpar" onclick="limpar()">
+    </div>
+    <div id="res">
+        <p>Cada vez que você clicar no botão acima, eu penso em um número.</p>
+    </div>
+
+    <script>
+        function clicar(){
+            let num = Math.floor(Math.random()*100 +1)
+            let res = document.querySelector('div#res')
+            res.innerHTML+=`<p>Acabei de pensar no número <mark>${num}</mark>!</p>`
+        }
+        function limpar(){
+            let res = document.querySelector('div#res')
+            res.innerHTML= null
+        }
+            
+    </script>
+</body>
+</html>

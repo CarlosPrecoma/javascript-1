@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+*{ margin: 0px; padding: 0px;}
+body{
+    background-color: #FFDC8C;
+    font: 15pt arial;
+}
+header{
+    background-color:#CF943E ;
+    color:#731DCC ;
+    text-align: center;
+    padding: 30px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.471);
+}
+div{padding: 30px;}
+input{
+    padding: 30px;
+    background-color: #9991A1;
+    color: white;
+    border-radius: 10px;
+}

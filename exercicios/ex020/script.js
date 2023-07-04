@@ -20,16 +20,16 @@ function estação() { // Sim, é possível usar acentuação
     let estação
     switch (mês.toUpperCase()) { // O método toUpperCase() transforma todas as letras de uma string para maiúsculas
         case 'JANEIRO': case 'FEVEREIRO': case 'MARÇO': // Podemos testar múltiplos casos em uma mesma linha, desse jeito
-            estação = 'INVERNO'
+            estação = 'VERÃO'
             break // Nunca se esqueça do break!!!
         case 'ABRIL': case 'MAIO': case 'JUNHO':
-            estação = 'PRIMAVERA'
+            estação = 'OUTONO'
             break
         case 'JULHO': case 'AGOSTO': case 'SETEMBRO':
-            estação = 'VERÃO'
+            estação = 'INVERNO'
             break
         case 'OUTUBRO': case 'NOVEMBRO': case 'DEZEMBRO':
-            estação = 'OUTONO'
+            estação = 'PRIMAVERA'
             break
         default:
             estação = 'INDEFINIDA'

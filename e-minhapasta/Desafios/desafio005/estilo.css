@@ -1,0 +1,5 @@
+@charset "UTF-8";
+body{ font: 13pt Arial; background-color: blue; color: white;}
+input{padding: 20px; font-size: 1.2em; background-color: aqua; border: 2px solid black; border-radius: 10px;}
+h1{text-align: center;}
+div{padding: 20px;}
